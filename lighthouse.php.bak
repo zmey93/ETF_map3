@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Карта Маяка в Таркове - TarkovMap.ru</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta property="og:title" content="Выходы ЧВК и Дикого на карте Маяк в Таркове - TarkovMap.ru">
-<meta property="og:description" content="Карта Маяк из игры Escape from Tarkov с расположением выходов Диких и ЧВК, карта тайников.">
-<meta property="og:image" content="/img/les.jpg">
-<meta name="description" content="Карта Маяк из игры Escape from Tarkov с расположением выходов Диких и ЧВК, карта тайников."> 
-<meta name="Keywords" content="карта, маяк, тарков, карта выходов, выходы за дикиго, выходы чвк, карта тайников"> 
+<title>Карта Маяка</title>
+
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -133,26 +128,32 @@ var keyIcon = new KeyIcon({iconUrl: '/img/key.png'}),
 	L.marker([77.860345, -146.689453], {icon: exitIcon}).bindPopup("<strong>Бронепоезд</strong>").addTo(exitScav);
 	L.marker([80.532071, -141.28418], {icon: exitIcon}).bindPopup("<strong>Ворота промзоны</strong>").addTo(exitScav);
 	L.marker([73.958939, -112.763672], {icon: exitIcon}).bindPopup("<strong>Укрытие в гроте</strong>").addTo(exitScav);
-	L.marker([78.962976, -34.453125], {icon: exitIcon}).bindPopup("<strong>Боковой тоннель</strong></br>Совместный выход с ЧВК (ЧВК + Дикий)").addTo(exitScav);
+	L.marker([78.946137, -34.584961], {icon: exitIcon}).bindPopup("<strong>Боковой тоннель</strong></br>Совместный выход с ЧВК (ЧВК + Дикий)").addTo(exitScav);
 	L.marker([74.959392, -37.441406], {icon: exitIcon}).bindPopup("<strong>Схрон под дебаркадером</strong></br>Необходимо залесть под здание").addTo(exitScav);
-	L.marker([82.243927, -24.038086], {icon: exitIcon}).bindPopup("<strong>Обвал на шоссе</strong></br>Необходимо спутится именно на берег").addTo(exitScav);
-	L.marker([75.573993, -76.157227], {icon: exitIcon}).bindPopup("<strong>Переход на Берег</strong>").addTo(exitScav);
+	L.marker([82.243927, -24.038086], {icon: exitIcon}).bindPopup("<strong>Обвал на шоссе</strong></br>").addTo(exitScav);
+	L.marker([83.194896, -78.75], {icon: exitIcon}).bindPopup("<strong>Переход на Берег</strong>").addTo(exitScav);
 
 //Точки выхода за ЧВК
 	L.marker([82.858847, -140.888672], {icon: exitIcon2}).bindPopup("<strong>Дорога к военной базе А-Выход</strong></br>Требуется 5000руб").addTo(exitPMC);
-	L.marker([81.214853, -134.912109], {icon: exitIcon2}).bindPopup("<strong>Боковой тоннель</strong></br>Совместный выход с Диким (ЧВК + Дикий)").addTo(exitPMC);
-	L.marker([75.264239, -146.953125], {icon: exitIcon2}).bindPopup("<strong>Южная дорога</strong>").addTo(exitPMC);
-	L.marker([79.113389, -85.627441], {icon: exitIcon2}).bindPopup("<strong>Тропа через перевал</strong></br>Требуется ледоруб и паракорд").addTo(exitPMC);
+	L.marker([78.946137, -34.584961], {icon: exitIcon2}).bindPopup("<strong>Боковой тоннель</strong></br>Совместный выход с Диким (ЧВК + Дикий)").addTo(exitPMC);
+	L.marker([82.160454, -25.532227], {icon: exitIcon2}).bindPopup("<strong>Южная дорога</strong>").addTo(exitPMC);
+	L.marker([80.788795, -65.917969], {icon: exitIcon2}).bindPopup("<strong>Тропа через перевал</strong></br>Требуется ледоруб и паракорд").addTo(exitPMC);
 	L.marker([75.584937, -160.224609], {icon: exitIcon2}).bindPopup("<strong>Северный блокпост</strong>").addTo(exitPMC);
 	L.marker([77.860345, -146.689453], {icon: exitIcon2}).bindPopup("<strong>Бронепоезд</strong>").addTo(exitPMC);
-	L.marker([75.185789, -75.146484], {icon: exitIcon2}).bindPopup("<strong>Переход на Берег</strong>").addTo(exitPMC);
+	L.marker([83.194896, -78.75], {icon: exitIcon2}).bindPopup("<strong>Переход на Берег</strong>").addTo(exitPMC);
 
 //Схроны
-    L.marker([83.630797, -107.20459], {icon: shronIcon}).bindPopup("Схрон бочка</br>").addTo(shronKeys);
-    L.marker([84.095662, -131.11084], {icon: shronIcon}).bindPopup("Схрон бочка под дебаркадером</br>").addTo(shronKeys);
-    
-    
-    
+    L.marker([78.215541, -9.536133], {icon: shronIcon}).bindPopup("Схрон в земле</br><a href='https://tarkov.help/wp-content/uploads/2021/12/6.jpg' data-fancybox='buttons' data-caption='Схрон в земле'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/6.jpg'></a>").addTo(shronKeys);
+    L.marker([79.616138, -25.224609], {icon: shronIcon}).bindPopup("Схрон в земле на горе</br><a href='https://tarkov.help/wp-content/uploads/2021/12/8.jpg' data-fancybox='buttons' data-caption='Схрон в земле на горе'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/8.jpg'></a>").addTo(shronKeys);
+    L.marker([81.160996, -24.038086], {icon: shronIcon}).bindPopup("Схрон в земле у воды</br><a href='https://tarkov.help/wp-content/uploads/2021/12/13.jpg' data-fancybox='buttons' data-caption='Схрон в земле у воды'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/13.jpg'></a>").addTo(shronKeys);
+    L.marker([76.999935, -13.535156], {icon: shronIcon}).bindPopup("Схрон в земле у воды</br><a href='https://tarkov.help/wp-content/uploads/2021/12/5.jpg' data-fancybox='buttons' data-caption='Схрон в земле у воды'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/5.jpg'></a>").addTo(shronKeys);
+	L.marker([76.618901, -28.212891], {icon: shronIcon}).bindPopup("Схрон в земле</br><a href='https://tarkov.help/wp-content/uploads/2021/12/1-2.jpg' data-fancybox='buttons' data-caption='Схрон в земле'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/1-2.jpg'></a>").addTo(shronKeys);
+	L.marker([79.351472, -35.244141], {icon: shronIcon}).bindPopup("Схрон в земле</br><a href='https://tarkov.help/wp-content/uploads/2021/12/7.jpg' data-fancybox='buttons' data-caption='Схрон в земле'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/7.jpg'></a>").addTo(shronKeys);
+	L.marker([80.935352, -46.010742], {icon: shronIcon}).bindPopup("Схрон в земле</br><a href='https://tarkov.help/wp-content/uploads/2021/12/12.jpg' data-fancybox='buttons' data-caption='Схрон в земле'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/12.jpg'></a>").addTo(shronKeys);
+	L.marker([75.297735, -38.056641], {icon: shronIcon}).bindPopup("Схрон в земле</br><a href='https://tarkov.help/wp-content/uploads/2021/12/9.jpg' data-fancybox='buttons' data-caption='Схрон в земле'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/9.jpg'></a>").addTo(shronKeys);
+	L.marker([76.750473, -54.09668], {icon: shronIcon}).bindPopup("Закопанная бочка</br><a href='https://tarkov.help/wp-content/uploads/2021/12/2.jpg' data-fancybox='buttons' data-caption='Закопанная бочка'><img class='img-thumbnail' src='https://tarkov.help/wp-content/uploads/2021/12/2.jpg'></a>").addTo(shronKeys);
+	
+	
 	
 	var overlays = {
 		"Выходы за дикого": exitScav,

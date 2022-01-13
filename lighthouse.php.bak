@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Карта Маяка</title>
-
+<title>Карта Маяка в Таркове - TarkovMap.ru</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta property="og:title" content="Выходы ЧВК и Дикого на карте Маяк в Таркове - TarkovMap.ru">
+<meta property="og:description" content="Карта Маяк из игры Escape from Tarkov с расположением выходов Диких и ЧВК, карта тайников.">
+<meta property="og:image" content="/img/les.jpg">
+<meta name="description" content="Карта Маяк из игры Escape from Tarkov с расположением выходов Диких и ЧВК, карта тайников."> 
+<meta name="Keywords" content="карта, маяк, тарков, карта выходов, выходы за дикиго, выходы чвк, карта тайников"> 
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">

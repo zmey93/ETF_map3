@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Карта Escape from Tarkov с выходами и ключами - TarkovMap.ru</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta property="og:title" content="Карта Escape from Tarkov - TarkovMap.ru">
-<meta property="og:description" content="Полная карта Escape from Tarkov с расположением выходов за ЧВК, ключей, заданий и интересных объектов на всех локациях игры.">
-<meta property="og:image" content="/img/tarkovmap.jpg">
-<meta property="og:url" content="https://tarkovmap.ru/">
-<meta name="yandex-verification" content="34faf5daa43a7b6d" />
-<meta name="google-site-verification" content="e_TooiLtkd1Eo8n5P_QwtRgJB4ZA1YjnHjRiMviTQmE" />
-<meta name="description" content="Полная карта Escape from Tarkov с расположением выходов за ЧВК, ключей, заданий и интересных объектов на всех локациях игры."> 
-<meta name="Keywords" content="карты, лаборатория, тарков, карта выходов, выходы чвк, где ключи, выходы диких"> 
+<title>Карта</title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -31,21 +22,6 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 <link rel="stylesheet" href="/css/dobby.css">
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(52259458, "init", {
-        id:52259458,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/52259458" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter --></head>
 
 <body>
 
@@ -99,7 +75,7 @@
 
 </div>
 
-<div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-left"><div class="leaflet-control-attribution leaflet-control">Карта составлена &copy; <a href="https://youtube.com/DobbyKillStreak">DobbyKillStreak</a></div></div></div></div>
+
 <script>
 
 var JustMaps = L.layerGroup();
